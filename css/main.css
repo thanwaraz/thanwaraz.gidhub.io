@@ -1,0 +1,62 @@
+.container {
+    background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.3)), url(https://2.gall-img.com/hygall/files/attach/images/82/502/209/262/1b121f1f7117774f5d6dd608bbfa8ddc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 48px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 24px;
+    }
+    
+}
+body {
+    font-family: 'NTR', sans-serif;
+    word-spacing: 120%;
+}
+
+.content-width {
+    max-width: 500px;
+}
+
+.name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: -15px;
+}
+
+.education {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.about {
+    font-size: 18px;
+    text-transform: lowercase;
+    color: blueviolet;
+}
+
+.avatar {
+    width: 300px;
+    padding: 40px;
+    margin-bottom: -30px;
+    border-radius: 25%;
+    object-fit: cover;
+}
+
+.button {
+    padding: 10px;
+    background-color: rgb(240, 240, 15);
+    color: white;
+    padding: 1px 5px;
+    text-decoration: none;
+}
+
